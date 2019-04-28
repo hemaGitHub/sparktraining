@@ -5,6 +5,7 @@
 - Python 2.7 or above to run the scrips.
 - To install the python requirements you can run:
 ```
+# recommended 
 sudo pip install -r requirements.txt
 ```
 
@@ -25,6 +26,10 @@ cd script
 
 - generate data, please change HADOOP_HOME to yours before running
 sh generate_data.sh
+
+## browse generated data
+- go to /tmp
+cd /tmp
 
 # Run Spark Code in Spark Shell
 
